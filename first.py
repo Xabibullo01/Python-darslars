@@ -67,4 +67,4 @@ for _, row in df.iterrows():
 
 conn.close()
 
-print('Xamidov Qattiqbek')
+print('Xamidov Qattiqbekmas')
