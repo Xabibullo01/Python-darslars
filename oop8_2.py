@@ -7,19 +7,19 @@ class Clock:
         self.seconds = seconds % self.__DAY
 
     def __eq__(self,  other):
-        return self.seconds == other.secods
+        return self.seconds == other.seconds
     
     def __lt__(self,  other):
-        return self.seconds < other.secods
+        return self.seconds < other.seconds
     
     def __gt__(self,  other):
-        return self.seconds > other.secods
+        return self.seconds > other.seconds
     
     def __le__(self,  other):
-        return self.seconds <= other.secods
+        return self.seconds <= other.seconds
     
     def __ge__(self,  other):
-        return self.seconds >= other.secods
+        return self.seconds >= other.seconds
     
 st = Clock(100)
 st2 = Clock(100)
