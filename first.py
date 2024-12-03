@@ -52,6 +52,7 @@ try:
 except Exception as e:
     print("Error creating table:", e)
 
+
 df = pd.read_csv('MOCK_DATA.csv')
 
 for _, row in df.iterrows():
