@@ -8,6 +8,7 @@ async def prepare_coffee(coffee_type: str, with_milk: bool, preparing_time: int)
     print(result)
     return result
 
+
 async def main():
     coffee_orders = [
         ("Cappuccino", True, 3),
